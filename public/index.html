@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>One Long page Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,700;0,900;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Nav-bar-->
+    <div class="logo"><a href="#home"><img src="img/logo.png" width="100px"></a></div>
+    <section id="navbar">
+    <!---Hamburger--->
+        <div class="wrap" onclick="display()">
+            <div class="line"></div>
+        </div>
+        <div class="hamMenu">
+            <ul>
+                <a href="#home"><li>home</li></a>
+                <a href="#menu"><li>menu</li></a>
+                <a href="#about"><li>about</li></a>
+                <a href="#footer"><li>help</li></a>
+            </ul>
+        </div>
+        <script>
+            var flag = 1;
+            function display() {
+                if(flag){
+                    document.getElementsByClassName("hamMenu")[0].style.visibility= "visible";
+                    flag=0;
+                }
+                else {
+                    document.getElementsByClassName("hamMenu")[0].style.visibility = "hidden";
+                    flag=1;
+                }                
+    }
+        </script>
+    <!--End of Hamburger-->
+    <div class="nav">
+            <ul>
+                <a href="#home"><li>welcome</li></a>
+                <a href="#menu"><li>menu</li></a>
+                <a href="#about"><li>about</li></a>
+                <a href="#footer"><li>help</li></a>
+            </ul>
+        </div>
+        
+    </section>
+    <!--End Nav-bar-->
+    <!--Home Section-->
+    <section id="home">
+    <div class="homepage">
+          <h1>Have a Great Coffee <br>With us!</h1>
+            <a href="booking.html" type="button" class="cta">Book now </a>
+    </div>
+    </section>
+    <!--End of Home Section-->
+        <!--Menu Section-->
+ <section id="menu">
+    <div class="menucards">
+        <div class="drinks">
+            <ul><h1>Drinks</h1>
+               <li>item</li>  
+               <li>item</li> 
+               <li>item</li> 
+               <li>item</li> 
+               <li>item</li> 
+               <li>item</li> 
+             </ul>
+             <ul><h2>small</h2>
+                 <li>NA</li>
+                 <li>NA</li>
+                 <li>NA</li>
+                 <li>NA</li>
+                 <li>NA</li>
+                 <li>NA</li>
+             </ul>
+             <ul><h2>medium</h2>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+            </ul>
+            <ul><h2>large</h2>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+                <li>NA</li>
+            </ul>
+        </div>
+        <div class="bakes">
+            <h1>bakes</h1>
+             <ul>
+                <li>item</li> 
+                <li>item</li> 
+                <li>item</li> 
+                <li>item</li>    
+                <li>item</li> 
+             </ul>
+        </div>
+        <div class="meals">
+            <h1>meals</h1>
+             <ul>
+                <li>item</li> 
+                <li>item</li> 
+                <li>item</li> 
+                <li>item</li> 
+                <li>item</li>   
+             </ul>
+        </div>
+    </div>
+ </section>
+    <!--End of Menu Section-->
+ <!--About Section-->
+ <section id="about">
+        <h1>Services</h1>
+        <div class="about">
+            <div class="row">
+           <div class="service_item first"> 
+            <h2>fresh roasted beans</h2>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iste adipisci maxime laudantium, est maiores? Nisi obcaecati eius, exercitationem officiis assumenda at, ipsam necessitatibus provident qui ex quam facilis doloribus.
+            </p>
+           </div>
+           <div class="service_item second">
+            <h2>beverages</h2>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iste adipisci maxime laudantium, est maiores? Nisi obcaecati eius, exercitationem officiis assumenda at, ipsam necessitatibus provident qui ex quam facilis doloribus.
+            </p>
+           </div></div>
+           <div class="row">
+           <div class="service_item third">
+            <h2>wine & Dine</h2>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iste adipisci maxime laudantium, est maiores? Nisi obcaecati eius, exercitationem officiis assumenda at, ipsam necessitatibus provident qui ex quam facilis doloribus.
+            </p>
+           </div>
+           <div class="service_item fourth">
+            <h2>bakes</h2>
+            <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iste adipisci maxime laudantium, est maiores? Nisi obcaecati eius, exercitationem officiis assumenda at, ipsam necessitatibus provident qui ex quam facilis doloribus.
+            </p>
+           </div></div>
+        </div>
+    </section>
+    <!--End of About Section-->
+
+    <!--footer Section-->
+ <section id="footer">
+        <div class="social_media">
+                <ul>
+                 <a href="https:instagram.com/" target="_blank"><li><img src="img/insta.png" width="100px"></li></a>
+                 <a href="https:facebook.com" target="_blank" ><li><img src="img/fb.png" width="100px"></li></a>
+                 <a href="https://wa.me/+919695514155" target="_blank"><li><img src="img/wtsap.png" width="100px"></li></a>
+                 <a href="mailto:ankitfake913@gmail.com" target="_blank"><li><img src="img/mail.png" width="100px"></li></a>
+                 <a href="https:twitter.com" target="_blank"><li><img src="img/ttr.png" width="100px"></li></a>
+                </ul>
+        </div>    
+        <div class="footer">
+            
+            <ul><h3>quick links</h3>
+                <a href="booking.html"><li>book Now </li></a>
+                
+            </ul>
+           
+            <ul> <h3>about us</h3>
+                <a href="aim.html"><li>our aim</li></a> 
+            </ul>
+            
+            <ul><h3>customer service</h3>            
+                <a href="mailto:ankitfake913@gmail.com"><li>Contact us</li></a>
+                <a href="feedback.html"><li>Feedback</li></a>
+            </ul>
+        </div>
+            
+           <div class="footnote"><p>&#169Made with ☕ by <a href="mailto:ankitfake913@gmail.com"> Ankit</a>.</p>          
+           </div>
+</section>
+ 
+    <!--End of footer Section-->
+
+</body>
+</html>

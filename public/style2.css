@@ -1,0 +1,167 @@
+/*-------AIM SECTION------*/
+#aim{
+    background-size:cover;
+    height: fit-content;
+    background: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 30px;
+    color: rgb(92, 92, 92);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#aim h1{
+    font-size: 50px;
+    margin: 0px 0px 20px 0px;
+}
+#aim p{
+margin: 20px 0px;
+letter-spacing: .02em;
+word-spacing: .2em;
+line-height: 2em;
+width: 86vw;
+}
+#aim img{
+    max-width:90vw;
+}
+/*-------END AIM SECTION-------*/
+/*-------BOOKING SECTION-------*/
+#booking{
+    height: 86vh;
+    position: relative;
+    display: flex;
+    background-size: cover;
+    background-image: url(img/1.jpg);
+    background-position: 0px -400px ;
+    z-index: 0;
+}
+.submit{
+    color: white;
+}
+#booking input{
+    border: none;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+#booking input:hover{
+    border: 2px rgb(167, 166, 166) solid;
+}
+#booking form{
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.253);
+}
+.name{
+    position: relative;
+    margin: 20px 0px;
+}
+#firstname, #surname{
+    width: 180px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    position: relative;
+    padding: 0px 10px;
+    margin: 0px 10px 0px 0px;
+}
+#contact{
+    width: 400px;
+    height: 35px;
+    font-size: 17px;
+    box-shadow: 2px;
+    border-radius: 5px;
+    position: relative;
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+#email{
+    width: 400px;
+    height: 35px;
+    font-size: 17px;
+    box-shadow: 2px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    position: relative;
+    margin: 20px 0px;
+}
+.day{
+    
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+#day{
+    width: 65px;
+    font-size: 17px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    padding: 0px 5px;
+}
+#month{
+    width: 140px;
+    font-size: 17px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    height: 35px;
+    padding: 0px 5px;
+}
+#year{
+    width: 95px;
+    font-size: 17px;
+    border-radius: 5px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    padding: 0px 5px;
+}
+.table{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+#table{
+    border: 2px solid grey;
+    padding: 05px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 20px 23px;
+    color: rgb(255, 255, 255);
+    background: rgba(245, 245, 245, 0.171);
+}
+#submit{
+    font-size: 18px ;
+    padding: 5px 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background: linear-gradient(-45deg,rgba(255, 255, 255, 0.253),rgba(128, 128, 128, 0.253));
+}
+
+ .submitted{
+     background-color: aquamarine;
+ }
+#booking::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: .1;
+    z-index: -1;
+}
+#booking img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 10px;
+    bottom: 0px;
+}
+/*-------END OF BOOKING FORM-----*/
