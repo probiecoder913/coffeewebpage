@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B"
   },
   "author": "",
