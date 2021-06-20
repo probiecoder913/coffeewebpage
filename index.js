@@ -48,7 +48,8 @@ app.get("/",(req,res)=>{
         "Allow-access-Allow-Origin": '*'
     })
     return res.redirect('feedback.html');
-}).listen(3001);
+}).listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
 
-
-console.log("Listening on PORT 3001");
+console.log("Listening on PORT 3000");
